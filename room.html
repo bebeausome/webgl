@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chair</title>
+    <style>
+      html, body{
+        width:90%;
+        height:90%;
+        margin:0;
+      }
+      #webgl{
+        display :block;
+      }
+     </style>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl">
+    
+      Please use a browser that supports "canvas"
+      </canvas>
+    <img src="./textures/rubixcube.jpg" id="cube" height="100" width="100">
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="./room.js"></script>
+  </body>
+</html>
